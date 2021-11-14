@@ -33,7 +33,7 @@
   "extends": [
 //    "plugin:react/recommended",
 //    "plugin:@typescript-eslint/recommended",
-    "prettier"
+//    "prettier"
 //    "plugin:prettier/recommended",
 //    "plugin:react-hooks/recommended"
   ],
