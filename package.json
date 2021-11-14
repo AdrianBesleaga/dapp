@@ -20,7 +20,8 @@
     "axios": "0.21.1",
     "bootstrap": "4.6.0",
     "moment": "2.29.1",
-    "node-sass": "4.14.1",
+    "node-gyp": "^8.4.0",
+    "node-sass": "^6.0.1",
     "react": "17.0.2",
     "react-bootstrap": "1.6.0",
     "react-dom": "17.0.2",
@@ -34,7 +35,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint --ext js,ts,tsx src"
+    "lint": "eslint --fix --ext js,ts,tsx src"
   },
   "eslintConfig": {
     "extends": [
@@ -57,17 +58,17 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "4.22.1",
     "@typescript-eslint/parser": "4.22.1",
-    "eslint-config-standard": "16.0.2",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-react": "7.22.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-config-react": "1.1.7",
     "eslint-config-react-app": "6.0.0",
+    "eslint-config-standard": "16.0.2",
     "eslint-import-resolver-alias": "1.1.2",
     "eslint-import-resolver-typescript": "2.4.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.22.0",
     "eslint-plugin-react-hooks": "4.2.0",
     "prettier": "2.3.2"
   }

@@ -1,13 +1,12 @@
 import React from "react";
+import { contractAddress as configContractAddress } from "config";
 import { routeNames } from "routes";
 import { renderWithRouter, testAddress } from "testUtils";
-import { contractAddress as configContractAddress } from "config";
+import { accountBalance } from "../../../testUtils/rawData";
 
 jest.mock("@elrondnetwork/dapp", () => {
   const dapp = jest.requireActual("@elrondnetwork/dapp");
   const { ChainID } = jest.requireActual("@elrondnetwork/erdjs/out");
-  const { testAddress } = require("testUtils");
-  const { accountBalance } = require("testUtils/rawData/accountBalance");
 
   return {
     ...dapp,
