@@ -24,14 +24,14 @@ export default function App() {
                   walletConnectRoute={routeNames.walletconnect}
                 />
               )}
-              exact={true}
+              exact
             />
             <Route
               path={routeNames.ledger}
               component={() => (
                 <Dapp.Pages.Ledger callbackRoute={routeNames.dashboard} />
               )}
-              exact={true}
+              exact
             />
             <Route
               path={routeNames.walletconnect}
@@ -43,7 +43,7 @@ export default function App() {
                   lead="Scan the QR code using Maiar"
                 />
               )}
-              exact={true}
+              exact
             />
 
             {routes.map((route, i) => (
@@ -51,7 +51,7 @@ export default function App() {
                 path={route.path}
                 key={route.path + i}
                 component={route.component}
-                exact={true}
+                exact
               />
             ))}
             <Route component={PageNotFoud} />

@@ -3,7 +3,8 @@ import * as Dapp from "@elrondnetwork/dapp";
 import { Navbar as BsNavbar, NavItem, Nav } from "react-bootstrap";
 import { Link, useHistory } from "react-router-dom";
 import { dAppName } from "config";
-import { ReactComponent as ElrondLogo } from "./../../../assets/img/elrond.svg";
+// @ts-ignore
+import { ReactComponent as ElrondLogo } from "../../../assets/img/elrond.svg";
 
 const Navbar = () => {
   const { loggedIn } = Dapp.useContext();

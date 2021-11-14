@@ -29,9 +29,7 @@ const PageState = ({
           <div className="col-12 col-md-8 col-lg-5 mx-auto">
             <div className="card shadow-sm rounded p-5 border-0">
               <div className="card-body text-center d-flex flex-column justify-content-center">
-                <div className={`icon ${className ? className : ""}`}>
-                  {svgComponent}
-                </div>
+                <div className={`icon ${className || ""}`}>{svgComponent}</div>
                 {title && <p className="h3 mt-3">{title}</p>}
                 {description && <div className="mt-3">{description}</div>}
               </div>

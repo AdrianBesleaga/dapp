@@ -1,4 +1,5 @@
 import React from "react";
+// @ts-ignore
 import { ReactComponent as HeartIcon } from "../../../assets/img/heart.svg";
 
 const Footer = () => {

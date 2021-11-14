@@ -38,7 +38,7 @@ const Denominate = ({
     let zeros = "";
 
     for (let i = 1; i <= decimals; i++) {
-      zeros = zeros + "0";
+      zeros += "0";
     }
 
     valueParts.push(zeros);
@@ -50,9 +50,7 @@ const Denominate = ({
       {valueParts.length > 1 && (
         <span className="decimals">.{valueParts[1]}</span>
       )}
-      {showErd && (
-        <span className="symbol">&nbsp;{token ? token : egldLabel}</span>
-      )}
+      {showErd && <span className="symbol">&nbsp;{token || egldLabel}</span>}
     </span>
   );
 };

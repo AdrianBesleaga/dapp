@@ -70,6 +70,14 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-import-resolver-node": "^0.3.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "@babel/core": "7.16.0",
+    "@babel/node": "7.16.0",
+    "@babel/plugin-transform-react-jsx": "7.16.0",
+    "@babel/preset-env": "7.16.0",
     "prettier": "^2.4.1"
   }
 }

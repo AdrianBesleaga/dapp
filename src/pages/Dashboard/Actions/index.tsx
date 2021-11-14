@@ -27,10 +27,9 @@ const Actions = () => {
         setSecondsLeft((existing) => {
           if (existing) {
             return existing - 1;
-          } else {
-            clearInterval(interval);
-            return 0;
           }
+          clearInterval(interval);
+          return 0;
         });
       }, 1000);
       return () => {

@@ -6,7 +6,7 @@ import {
   faTimes,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { TransactionType } from "./../../../context/state";
+import { TransactionType } from "../../../context/state";
 import txStatus from "./txStatus";
 
 interface StatusIconType {
